@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+  <title>Parallax</title>
+</head>
+<body>
+  <section>
+    <h2>Simple Parallax Effects for WebSite</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis ea voluptatibus reprehenderit quod quidem dolor harum, dolore libero ratione recusandae suscipit aliquam molestias, illum asperiores porro quia soluta facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos ullam unde dolor facere. Adipisci soluta, nulla pariatur non assumenda iste est eligendi aliquam illum officiis magnam, dicta rem reprehenderit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit, tenetur non eveniet obcaecati fugiat accusantium illo? Dolorem tempore incidunt, voluptates molestiae eum, harum dolorum aliquid velit doloremque quasi quos!</p>
+  </section>
+  <div class="paralaxBg">
+    <img class="parallaxImg1" src="/pexels-david-skyrius-2224861.jpg" alt="new york">
+    <h2>Left</h2>
+  </div>
+  <section>
+    <h2>Simple Parallax Effects for WebSite</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis ea voluptatibus reprehenderit quod quidem dolor harum, dolore libero ratione recusandae suscipit aliquam molestias, illum asperiores porro quia soluta facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos ullam unde dolor facere. Adipisci soluta, nulla pariatur non assumenda iste est eligendi aliquam illum officiis magnam, dicta rem reprehenderit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit, tenetur non eveniet obcaecati fugiat accusantium illo? Dolorem tempore incidunt, voluptates molestiae eum, harum dolorum aliquid velit doloremque quasi quos!</p>
+  </section>
+  <div class="paralaxBg">
+    <img class="parallaxImg2" src="/pexels-anthony-rodriguez-8820927.jpg" alt="quebec">
+    <h2>Right</h2>
+  </div>
+  <section>
+    <h2>Simple Parallax Effects for WebSite</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis ea voluptatibus reprehenderit quod quidem dolor harum, dolore libero ratione recusandae suscipit aliquam molestias, illum asperiores porro quia soluta facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos ullam unde dolor facere. Adipisci soluta, nulla pariatur non assumenda iste est eligendi aliquam illum officiis magnam, dicta rem reprehenderit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit, tenetur non eveniet obcaecati fugiat accusantium illo? Dolorem tempore incidunt, voluptates molestiae eum, harum dolorum aliquid velit doloremque quasi quos!</p>
+  </section>
+  <div class="paralaxBg">
+    <img class="parallaxImg3" src="/pexels-mikhail-nilov-6943642.jpg" alt="quebec">
+    <h2>Top</h2>
+  </div>
+  <section>
+    <h2>Simple Parallax Effects for WebSite</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis ea voluptatibus reprehenderit quod quidem dolor harum, dolore libero ratione recusandae suscipit aliquam molestias, illum asperiores porro quia soluta facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos ullam unde dolor facere. Adipisci soluta, nulla pariatur non assumenda iste est eligendi aliquam illum officiis magnam, dicta rem reprehenderit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit, tenetur non eveniet obcaecati fugiat accusantium illo? Dolorem tempore incidunt, voluptates molestiae eum, harum dolorum aliquid velit doloremque quasi quos!</p>
+  </section>
+  <div class="paralaxBg">
+    <img class="parallaxImg4" src="/pexels-ian-porce-72479.jpg" alt="quebec">
+    <h2>Down</h2>
+  </div>
+  <section>
+    <h2>Simple Parallax Effects for WebSite</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis ea voluptatibus reprehenderit quod quidem dolor harum, dolore libero ratione recusandae suscipit aliquam molestias, illum asperiores porro quia soluta facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos ullam unde dolor facere. Adipisci soluta, nulla pariatur non assumenda iste est eligendi aliquam illum officiis magnam, dicta rem reprehenderit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit, tenetur non eveniet obcaecati fugiat accusantium illo? Dolorem tempore incidunt, voluptates molestiae eum, harum dolorum aliquid velit doloremque quasi quos!</p>
+  </section>
+  <script>
+    const image1 = document.querySelector('.parallaxImg1');
+    const image2 = document.querySelector('.parallaxImg2');
+    const image3 = document.querySelector('.parallaxImg3');
+    const image4 = document.querySelector('.parallaxImg4');
+    new simpleParallax(image1, {
+      orientation: 'left'
+    });
+    new simpleParallax(image2, {
+      orientation: 'right'
+    });
+    new simpleParallax(image3, {
+      orientation: 'up'
+    });
+    new simpleParallax(image4, {
+      orientation: 'down'
+    });
+  </script>
+</body>
+</html>
